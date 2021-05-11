@@ -1,4 +1,4 @@
-# SDS Delivery
+# DS VENDAS
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabrielveloso/dsvendas-sds/blob/main/LICENSE) 
 
 <p align="center">
@@ -33,7 +33,7 @@ A aplicação consiste em um aplicativo de delivery com tela de pedidos pelos cl
 #### Endpoints backend
     - /sales (Pageable)
     - /sales/amount-by-seller (JPQL)
-    - /selles (Pageable)
+    - /sellers (Pageable)
 
 
 ## Front end
