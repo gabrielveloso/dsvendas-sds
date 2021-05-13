@@ -45,6 +45,7 @@ A aplicação consiste em um aplicativo de delivery com tela de pedidos pelos cl
     - react-apexcharts (Graphics)
     - react-router-dom
     - @types/react-router-dom
+    - axios (to make http request)
 ## Implantação em produção
 - Back end: Heroku
     - Command used: <br> 
