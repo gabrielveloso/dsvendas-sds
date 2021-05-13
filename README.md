@@ -31,17 +31,25 @@ A aplicação consiste em um aplicativo de delivery com tela de pedidos pelos cl
 - JPQL
 - Maven
 #### Endpoints backend
+    * Heroku: https://gabriel-sdsvendas.herokuapp.com/
     - /sales (Pageable)
     - /sales/amount-by-seller (JPQL)
+    - /sales/success-by-seller (JPQL)
     - /sellers (Pageable)
 
 
 ## Front end
 - HTML / CSS / JS / TypeScript
 - ReactJS
-- libs: react-apexcharts (Graphics)
+- libs: 
+    - react-apexcharts (Graphics)
+    - react-router-dom
+    - @types/react-router-dom
 ## Implantação em produção
 - Back end: Heroku
+    - Command used: <br> 
+    <i>heroku login</i> <br>
+    <i>git subtree --prefix backend heroku main</i>
 - Front end web: Netlify
 - Banco de dados: Postgresql
 
