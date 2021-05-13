@@ -46,6 +46,7 @@ A aplicação consiste em um aplicativo de delivery com tela de pedidos pelos cl
     - react-router-dom
     - @types/react-router-dom
     - axios (to make http request)
+    - date-fns (to format date)
 ## Implantação em produção
 - Back end: Heroku
     - Command used: <br> 
